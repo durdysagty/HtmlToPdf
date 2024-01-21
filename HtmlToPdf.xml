@@ -1,0 +1,280 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T11:36:29.404Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="sA9oLG66fB6L52ik3Wi-" version="22.1.18" type="device">
+  <diagram name="Страница — 1" id="xYVbqImroOCEC0DTz53Q">
+    <mxGraphModel dx="1489" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-2" value="Frontend Server&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Returns ReactApp with SignalR, FileLoader Routes&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1101" y="20" width="219" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="l7-EaXQqBdvTD3ATKrzl-3" target="l7-EaXQqBdvTD3ATKrzl-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1101" y="30" as="targetPoint" />
+            <mxPoint x="562" y="30" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-3" value="View" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="10" width="141" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="l7-EaXQqBdvTD3ATKrzl-8" target="LtUhPArewzqx0EaSfEQI-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-8" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=10;dy=10;" parent="1" vertex="1">
+          <mxGeometry x="41" y="420" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-10" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="391" y="550" width="470" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-34" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
+          <mxGeometry x="541" y="350" width="250" height="80" as="geometry">
+            <mxRectangle x="540" y="140" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-23" value="SignalR1&lt;br&gt;Route1 Route2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="l7-EaXQqBdvTD3ATKrzl-34" vertex="1">
+          <mxGeometry x="15" y="10" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-35" value="SignalR2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Route1 Route2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="l7-EaXQqBdvTD3ATKrzl-34" vertex="1">
+          <mxGeometry x="130" y="10" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-39" value="Horizontally Scalable Independent Servers with 2 Routes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="l7-EaXQqBdvTD3ATKrzl-34" vertex="1">
+          <mxGeometry y="55" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-46" value="Request" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="780" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-47" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Response &lt;/font&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(SignalR, FileLoader to connect)&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="711" y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-51" value="Connect with ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="451" y="320" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.569;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="l7-EaXQqBdvTD3ATKrzl-52" target="l7-EaXQqBdvTD3ATKrzl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-52" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
+          <mxGeometry x="31" y="170" width="280" height="130" as="geometry">
+            <mxRectangle x="30" y="10" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-5" value="FileLoader1&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;K8s cluster&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="l7-EaXQqBdvTD3ATKrzl-52" vertex="1">
+          <mxGeometry x="10" y="5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-55" value="FileLoader2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;K8s cluster&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="l7-EaXQqBdvTD3ATKrzl-52" vertex="1">
+          <mxGeometry x="150" y="5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-54" value="FileLoader3&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;K8s cluster&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="l7-EaXQqBdvTD3ATKrzl-52" vertex="1">
+          <mxGeometry x="10" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-53" value="FileLoader4&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;K8s cluster&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="l7-EaXQqBdvTD3ATKrzl-52" vertex="1">
+          <mxGeometry x="150" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-56" value="Horizontally Scalable Independent K8s Clusters" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="l7-EaXQqBdvTD3ATKrzl-52" vertex="1">
+          <mxGeometry x="40" y="110" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.425;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="l7-EaXQqBdvTD3ATKrzl-3" target="l7-EaXQqBdvTD3ATKrzl-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l7-EaXQqBdvTD3ATKrzl-58" value="Post HTML File &lt;font style=&quot;font-size: 9px;&quot;&gt;(SignalR route, clien ID)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="271" y="40" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-1" value="HTML Repo1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="61" y="440" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-2" value="HTML Repo2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="131" y="440" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-3" value="HTML Repo3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="201" y="440" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-4" value="Independent Repositories" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="91" y="520" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-10" value="Upload File" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="116" y="355" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-12" value="Task Message&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(File Path, SignalR Route, clien ID)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="251" y="340" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.135;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LtUhPArewzqx0EaSfEQI-13" target="l7-EaXQqBdvTD3ATKrzl-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="71" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="72" y="1020" />
+              <mxPoint x="72" y="820" />
+              <mxPoint x="71" y="553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="841" y="1020" as="sourcePoint" />
+            <mxPoint x="1146" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-13" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="261" y="920" width="570" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-14" value="Converter1&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;K8s cluster&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="LtUhPArewzqx0EaSfEQI-13">
+          <mxGeometry x="20" y="20" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-24" value="Converter4&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;K8s cluster&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="LtUhPArewzqx0EaSfEQI-13">
+          <mxGeometry x="20" y="110" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-23" value="Converter5&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;K8s cluster&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="LtUhPArewzqx0EaSfEQI-13">
+          <mxGeometry x="205" y="110" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-22" value="Converter6&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;K8s cluster&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="LtUhPArewzqx0EaSfEQI-13">
+          <mxGeometry x="390" y="110" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-21" value="Converter2&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;K8s cluster&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="LtUhPArewzqx0EaSfEQI-13">
+          <mxGeometry x="205" y="20" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-20" value="Converter3&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;K8s cluster&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="LtUhPArewzqx0EaSfEQI-13">
+          <mxGeometry x="390" y="20" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-25" value="Horizontally Scalable Independent K8s Clusters" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="LtUhPArewzqx0EaSfEQI-13">
+          <mxGeometry x="170" y="170" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-29" value="SFTP File Request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="107" y="990" width="128" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-31" value="File" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="91" y="750" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-33" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.102;entryY=-0.031;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.008;exitY=0.852;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="l7-EaXQqBdvTD3ATKrzl-52" target="l7-EaXQqBdvTD3ATKrzl-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="171" y="340" as="sourcePoint" />
+            <mxPoint x="381" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-34" value="Tasks Queue&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(HTML File Path, SignalR Route)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441" y="557.5" width="70" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-35" value="SignalR1 Route1 Queue&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(PDF File path)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="516" y="560" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-36" value="SignalR2 Route2 Queue&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(PDF File path)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="661" y="620" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-37" value="SignalR2 Route1 Queue&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(PDF File path)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="516" y="620" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-38" value="SignalR1 Route2 Queue&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(PDF File path)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="661" y="560" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-39" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;RabbitMQ Cluster&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="591" y="660" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-44" value="PDF File" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="921" y="990" width="128" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LtUhPArewzqx0EaSfEQI-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1126" y="470" as="sourcePoint" />
+            <mxPoint x="561" y="179.99999999999977" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1126" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-45" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=10;dy=10;" vertex="1" parent="1">
+          <mxGeometry x="1011" y="490" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-46" value="PDF Repo1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1031" y="520" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-47" value="PDF Repo2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1101" y="520" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-48" value="PDF Repo3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1171" y="520" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-49" value="Independent Repositories" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="101" y="530" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-50" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="l7-EaXQqBdvTD3ATKrzl-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1146" y="670" as="sourcePoint" />
+            <mxPoint x="861" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.64;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="476" y="690" as="sourcePoint" />
+            <mxPoint x="475.7999999999997" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-52" value="Task&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(File Path, SignalR Route, clien ID)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="383.5" y="787.5" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-53" value="Ready Message to Correct Queue &lt;font style=&quot;font-size: 9px;&quot;&gt;(File path, clien ID)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="911" y="640" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.337;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="l7-EaXQqBdvTD3ATKrzl-10" target="l7-EaXQqBdvTD3ATKrzl-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-55" value="Ready Message&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(File Path, clien ID)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="551" y="480" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="571" y="430" as="sourcePoint" />
+            <mxPoint x="571" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-58" value="Connection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="361" y="450" width="128" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-60" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="171" y="370" as="sourcePoint" />
+            <mxPoint x="441" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-61" value="Correct Queue Connection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="491" y="480" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-63" value="Ready Message by Client ID&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(File path, clien ID)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="561" y="250" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-64" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.698;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="LtUhPArewzqx0EaSfEQI-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="140" as="sourcePoint" />
+            <mxPoint x="1121" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1172" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.342;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100.68" y="90" as="sourcePoint" />
+            <mxPoint x="561.0000000000001" y="91.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.824;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="l7-EaXQqBdvTD3ATKrzl-34" target="l7-EaXQqBdvTD3ATKrzl-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="275" />
+              <mxPoint x="536" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-69" value="Download Request" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="110" width="119" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LtUhPArewzqx0EaSfEQI-74" value="PDF File" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810.5" y="150" width="58" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
